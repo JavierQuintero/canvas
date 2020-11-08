@@ -9,8 +9,12 @@ let lienzo = d.getContext("2d");
 // dibujarLineas('#4ad', 70, 300, 0, 70)
 // dibujarLineas('#4ad', 80, 300, 0, 80)
 
-for(i=0;i<30;i++){	
+for( i=0, a=30; i<=30, a>=0; i++,a-- ){
 	dibujarLineas('#4ad', (i+1)*10, 300, 0, (i+1)*10)
+	debugger
+	dibujarLineas('#c2e', 300, (i+1)*10, a*10 ,300)
+	dibujarLineas('#0d1', 0, a*10, (i+1)*10, 0)
+	dibujarLineas('#010', (i+1)*10, 0, 300, (i+1)*10)
 }
 
 // Dibujo en canvas
