@@ -16,8 +16,12 @@ for( i=0, a=30; i<=30, a>=0; i++,a-- ){
 	dibujarLineas('#0d1', 0, a*10, (i+1)*10, 0)
 	dibujarLineas('#010', (i+1)*10, 0, 300, (i+1)*10)
 }
+//Dibujando Texto
+lienzo.font = '20px arial';
+lienzo.fillStyle = 'cyan';
+lienzo.fillText("devJaviQ", 100, 150)
 
-// Dibujo en canvas
+//funcion Dibujo en canvas
 
 function dibujarLineas(color, x_init, y_init, x_end, y_end){
 
