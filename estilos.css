@@ -12,6 +12,6 @@ h1 {
     font-variant: small-caps;
     font-size: 2.5em;
 }
-.caja p{
+.caja > p{
     font-size: 1.3em;
 }
